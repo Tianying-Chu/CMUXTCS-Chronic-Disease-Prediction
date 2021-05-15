@@ -1,1 +1,1 @@
-# CMU-X-TCS---Chronic-Disease-Prediction
+# CMUXTCS-Chronic-Disease-Prediction
