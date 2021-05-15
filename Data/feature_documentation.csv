@@ -1,0 +1,300 @@
+var_name,full_name,short_name,data_source,indicator,agg_methods,agg_state_avg,agg_national_avg_county,agg_national_avg_state,units
+fips,fips,fips,,,,,,,
+year,cohort year,cohort year,,,,,,,
+value,actual hospitalization,actual hospitalization,,,,,,,
+value_hat,predicted hospitalization,predicted hospitalization,,,,,,,
+geo_id,geo_id,geo_id,,,,,,,
+state,state,state,,,,,,,
+county,county,county,,,,,,,
+days_with_aqi_aqi_ind,"num of days with AQI records(AQI current year, imputation indicator)",num of days with AQI records,AQI current year,yes,,,,,
+good_days_aqi_ind,"num of good days(AQI current year, imputation indicator)",num of good days,AQI current year,yes,,,,,
+moderate_days_aqi_ind,"num of moderate days(AQI current year, imputation indicator)",num of moderate days,AQI current year,yes,,,,,
+unhealthy_for_sensitive_groups_days_aqi_ind,"num of unhealthy days for sensitive groups(AQI current year, imputation indicator)",num of unhealthy days for sensitive groups,AQI current year,yes,,,,,
+unhealthy_days_aqi_ind,"num of unhealthy days(AQI current year, imputation indicator)",num of unhealthy days,AQI current year,yes,,,,,
+very_unhealthy_days_aqi_ind,"num of very unhealthy days(AQI current year, imputation indicator)",num of very unhealthy days,AQI current year,yes,,,,,
+hazardous_days_aqi_ind,"num of hazardous days(AQI current year, imputation indicator)",num of hazardous days,AQI current year,yes,,,,,
+max_aqi_aqi_ind,"max AQI(AQI current year, imputation indicator)",max AQI,AQI current year,yes,,,,,
+90th_percentile_aqi_aqi_ind,"90th percentile AQI(AQI current year, imputation indicator)",90th percentile AQI,AQI current year,yes,,,,,
+median_aqi_aqi_ind,"median AQI(AQI current year, imputation indicator)",median AQI,AQI current year,yes,,,,,
+days_co_aqi_ind,"num of days with CO(AQI current year, imputation indicator)",num of days with CO,AQI current year,yes,,,,,
+days_no2_aqi_ind,"num of days with NO2(AQI current year, imputation indicator)",num of days with NO2,AQI current year,yes,,,,,
+days_ozone_aqi_ind,"num of days with Ozone(AQI current year, imputation indicator)",num of days with Ozone,AQI current year,yes,,,,,
+days_so2_aqi_ind,"num of days with SO2(AQI current year, imputation indicator)",num of days with SO2,AQI current year,yes,,,,,
+days_pm2.5_aqi_ind,"num of days with PM2.5(AQI current year, imputation indicator)",num of days with PM2.5,AQI current year,yes,,,,,
+days_pm10_aqi_ind,"num of days with PM10(AQI current year, imputation indicator)",num of days with PM10,AQI current year,yes,,,,,
+good_days_pct_aqi_ind,"pct of good days(AQI current year, imputation indicator)",pct of good days,AQI current year,yes,,,,,
+moderate_days_pct_aqi_ind,"pct of moderate days(AQI current year, imputation indicator)",pct of moderate days,AQI current year,yes,,,,,
+unhealthy_for_sensitive_groups_days_pct_aqi_ind,"pct of unhealthy days for sensitive groups(AQI current year, imputation indicator)",pct of unhealthy days for sensitive groups,AQI current year,yes,,,,,
+unhealthy_days_pct_aqi_ind,"pct of unhealthy days(AQI current year, imputation indicator)",pct of unhealthy days,AQI current year,yes,,,,,
+very_unhealthy_days_pct_aqi_ind,"pct of very unhealthy days(AQI current year, imputation indicator)",pct of very unhealthy days,AQI current year,yes,,,,,
+hazardous_days_pct_aqi_ind,"pct of hazardous days(AQI current year, imputation indicator)",pct of hazardous days,AQI current year,yes,,,,,
+days_co_pct_aqi_ind,"pct of days with CO(AQI current year, imputation indicator)",pct of days with CO,AQI current year,yes,,,,,
+days_no2_pct_aqi_ind,"pct of days with NO2(AQI current year, imputation indicator)",pct of days with NO2,AQI current year,yes,,,,,
+days_ozone_pct_aqi_ind,"pct of days with Ozone(AQI current year, imputation indicator)",pct of days with Ozone,AQI current year,yes,,,,,
+days_so2_pct_aqi_ind,"pct of days with SO2(AQI current year, imputation indicator)",pct of days with SO2,AQI current year,yes,,,,,
+days_pm2.5_pct_aqi_ind,"pct of days with PM2.5(AQI current year, imputation indicator)",pct of days with PM2.5,AQI current year,yes,,,,,
+days_pm10_pct_aqi_ind,"pct of days with PM10(AQI current year, imputation indicator)",pct of days with PM10,AQI current year,yes,,,,,
+days_with_aqi_prev_8_aqi_ind,"num of days with AQI records(AQI prev 8 years, imputation indicator)",num of days with AQI records,AQI prev 8 years,yes,,,,,
+good_days_prev_8_aqi_ind,"num of good days(AQI prev 8 years, imputation indicator)",num of good days,AQI prev 8 years,yes,,,,,
+moderate_days_prev_8_aqi_ind,"num of moderate days(AQI prev 8 years, imputation indicator)",num of moderate days,AQI prev 8 years,yes,,,,,
+unhealthy_for_sensitive_groups_days_prev_8_aqi_ind,"num of unhealthy days for sensitive groups(AQI prev 8 years, imputation indicator)",num of unhealthy days for sensitive groups,AQI prev 8 years,yes,,,,,
+unhealthy_days_prev_8_aqi_ind,"num of unhealthy days(AQI prev 8 years, imputation indicator)",num of unhealthy days,AQI prev 8 years,yes,,,,,
+very_unhealthy_days_prev_8_aqi_ind,"num of very unhealthy days(AQI prev 8 years, imputation indicator)",num of very unhealthy days,AQI prev 8 years,yes,,,,,
+hazardous_days_prev_8_aqi_ind,"num of hazardous days(AQI prev 8 years, imputation indicator)",num of hazardous days,AQI prev 8 years,yes,,,,,
+max_aqi_prev_8_aqi_ind,"max AQI(AQI prev 8 years, imputation indicator)",max AQI,AQI prev 8 years,yes,,,,,
+90th_percentile_aqi_prev_8_aqi_ind,"90th percentile AQI(AQI prev 8 years, imputation indicator)",90th percentile AQI,AQI prev 8 years,yes,,,,,
+median_aqi_prev_8_aqi_ind,"median AQI(AQI prev 8 years, imputation indicator)",median AQI,AQI prev 8 years,yes,,,,,
+days_co_prev_8_aqi_ind,"num of days with CO(AQI prev 8 years, imputation indicator)",num of days with CO,AQI prev 8 years,yes,,,,,
+days_no2_prev_8_aqi_ind,"num of days with NO2(AQI prev 8 years, imputation indicator)",num of days with NO2,AQI prev 8 years,yes,,,,,
+days_ozone_prev_8_aqi_ind,"num of days with Ozone(AQI prev 8 years, imputation indicator)",num of days with Ozone,AQI prev 8 years,yes,,,,,
+days_so2_prev_8_aqi_ind,"num of days with SO2(AQI prev 8 years, imputation indicator)",num of days with SO2,AQI prev 8 years,yes,,,,,
+days_pm2.5_prev_8_aqi_ind,"num of days with PM2.5(AQI prev 8 years, imputation indicator)",num of days with PM2.5,AQI prev 8 years,yes,,,,,
+days_pm10_prev_8_aqi_ind,"num of days with PM10(AQI prev 8 years, imputation indicator)",num of days with PM10,AQI prev 8 years,yes,,,,,
+good_days_pct_prev_8_aqi_ind,"pct of good days(AQI prev 8 years, imputation indicator)",pct of good days,AQI prev 8 years,yes,,,,,
+moderate_days_pct_prev_8_aqi_ind,"pct of moderate days(AQI prev 8 years, imputation indicator)",pct of moderate days,AQI prev 8 years,yes,,,,,
+unhealthy_for_sensitive_groups_days_pct_prev_8_aqi_ind,"pct of unhealthy days for sensitive groups(AQI prev 8 years, imputation indicator)",pct of unhealthy days for sensitive groups,AQI prev 8 years,yes,,,,,
+unhealthy_days_pct_prev_8_aqi_ind,"pct of unhealthy days(AQI prev 8 years, imputation indicator)",pct of unhealthy days,AQI prev 8 years,yes,,,,,
+very_unhealthy_days_pct_prev_8_aqi_ind,"pct of very unhealthy days(AQI prev 8 years, imputation indicator)",pct of very unhealthy days,AQI prev 8 years,yes,,,,,
+hazardous_days_pct_prev_8_aqi_ind,"pct of hazardous days(AQI prev 8 years, imputation indicator)",pct of hazardous days,AQI prev 8 years,yes,,,,,
+days_co_pct_prev_8_aqi_ind,"pct of days with CO(AQI prev 8 years, imputation indicator)",pct of days with CO,AQI prev 8 years,yes,,,,,
+days_no2_pct_prev_8_aqi_ind,"pct of days with NO2(AQI prev 8 years, imputation indicator)",pct of days with NO2,AQI prev 8 years,yes,,,,,
+days_ozone_pct_prev_8_aqi_ind,"pct of days with Ozone(AQI prev 8 years, imputation indicator)",pct of days with Ozone,AQI prev 8 years,yes,,,,,
+days_so2_pct_prev_8_aqi_ind,"pct of days with SO2(AQI prev 8 years, imputation indicator)",pct of days with SO2,AQI prev 8 years,yes,,,,,
+days_pm2.5_pct_prev_8_aqi_ind,"pct of days with PM2.5(AQI prev 8 years, imputation indicator)",pct of days with PM2.5,AQI prev 8 years,yes,,,,,
+days_pm10_pct_prev_8_aqi_ind,"pct of days with PM10(AQI prev 8 years, imputation indicator)",pct of days with PM10,AQI prev 8 years,yes,,,,,
+population_all_county_ind,"population(ACS county, imputation indicator)",population,ACS county,yes,,,,,
+population_65_county_ind,"population over 65(ACS county, imputation indicator)",population over 65,ACS county,yes,,,,,
+income_median_house_65_county_ind,"household median income over 65(ACS county, imputation indicator)",household median income over 65,ACS county,yes,,,,,
+income_median_house_all_county_ind,"household median income(ACS county, imputation indicator)",household median income,ACS county,yes,,,,,
+per_poverty_all_county_ind,"pct of poverty(ACS county, imputation indicator)",pct of poverty,ACS county,yes,,,,,
+per_poverty_65_county_ind,"pct of poverty over 65(ACS county, imputation indicator)",pct of poverty over 65,ACS county,yes,,,,,
+per_male_all_county_ind,"pct of male(ACS county, imputation indicator)",pct of male,ACS county,yes,,,,,
+per_hear_diffi_65_county_ind,"pct of hearing difficulty over 65(ACS county, imputation indicator)",pct of hearing difficulty over 65,ACS county,yes,,,,,
+per_vision_diffi_65_county_ind,"pct of vision difficulty over 65(ACS county, imputation indicator)",pct of vision difficulty over 65,ACS county,yes,,,,,
+per_cog_diffi_65_county_ind,"pct of cognitive difficulty over 65(ACS county, imputation indicator)",pct of cognitive difficulty over 65,ACS county,yes,,,,,
+per_ambu_diffi_65_county_ind,"pct of ambulatory difficulty over 65(ACS county, imputation indicator)",pct of ambulatory difficulty over 65,ACS county,yes,,,,,
+per_selfCare_diffi_65_county_ind,"pct of self-care difficulty over 65(ACS county, imputation indicator)",pct of self-care difficulty over 65,ACS county,yes,,,,,
+per_indeLive_diffi_65_county_ind,"pct of independent living difficulty over 65(ACS county, imputation indicator)",pct of independent living difficulty over 65,ACS county,yes,,,,,
+per_oneRace_white_all_county_ind,"pct of White(one race only)(ACS county, imputation indicator)",pct of White-one race only,ACS county,yes,,,,,
+per_oneRace_baa_all_county_ind,"pct of Black/African American(one race only)(ACS county, imputation indicator)",pct of Black/African American-one race only,ACS county,yes,,,,,
+per_oneRace_aian_all_county_ind,"pct of American Indian and Alaska Native(one race only)(ACS county, imputation indicator)",pct of American Indian and Alaska Native-one race only,ACS county,yes,,,,,
+per_oneRace_asian_all_county_ind,"pct of Asian(one race only)(ACS county, imputation indicator)",pct of Asian-one race only,ACS county,yes,,,,,
+per_oneRace_nhopi_all_county_ind,"pct of Native Hawaiian and Other Pacific Islander(one race only)(ACS county, imputation indicator)",pct of Native Hawaiian and Other Pacific Islander-one race only,ACS county,yes,,,,,
+per_oneRace_other_all_county_ind,"pct of other race(one race only)(ACS county, imputation indicator)",pct of other race-one race only,ACS county,yes,,,,,
+per_twoRace_over_all_county_ind,"pct of two race population(ACS county, imputation indicator)",pct of two race population,ACS county,yes,,,,,
+per_male_65_county_ind,"pct of male over 65(ACS county, imputation indicator)",pct of male over 65,ACS county,yes,,,,,
+per_high_65_county_ind,"pct of high school education over 65(ACS county, imputation indicator)",pct of high school education over 65,ACS county,yes,,,,,
+per_bachelor_65_county_ind,"pct of bachelor education over 65(ACS county, imputation indicator)",pct of bachelor education over 65,ACS county,yes,,,,,
+per_employment_65_county_ind,"pct of employment over 65(ACS county, imputation indicator)",pct of employment over 65,ACS county,yes,,,,,
+per_veteran_65_county_ind,"pct of veteran over 65(ACS county, imputation indicator)",pct of veteran over 65,ACS county,yes,,,,,
+per_stamp_house_all_county_ind,"pct of stamp house over 65(ACS county, imputation indicator)",pct of stamp house over 65,ACS county,yes,,,,,
+per_insured_65_county_ind,"pct of insured over 65(ACS county, imputation indicator)",pct of insured over 65,ACS county,yes,,,,,
+population_all_state_ind,"population(ACS state, imputation indicator)",population,ACS state,yes,,,,,
+population_65_state_ind,"population over 65(ACS state, imputation indicator)",population over 65,ACS state,yes,,,,,
+income_median_house_65_state_ind,"household median income over 65(ACS state, imputation indicator)",household median income over 65,ACS state,yes,,,,,
+income_median_house_all_state_ind,"household median income(ACS state, imputation indicator)",household median income,ACS state,yes,,,,,
+per_poverty_all_state_ind,"pct of poverty(ACS state, imputation indicator)",pct of poverty,ACS state,yes,,,,,
+per_poverty_65_state_ind,"pct of poverty over 65(ACS state, imputation indicator)",pct of poverty over 65,ACS state,yes,,,,,
+per_male_all_state_ind,"pct of male(ACS state, imputation indicator)",pct of male,ACS state,yes,,,,,
+per_hear_diffi_65_state_ind,"pct of hearing difficulty over 65(ACS state, imputation indicator)",pct of hearing difficulty over 65,ACS state,yes,,,,,
+per_vision_diffi_65_state_ind,"pct of vision difficulty over 65(ACS state, imputation indicator)",pct of vision difficulty over 65,ACS state,yes,,,,,
+per_cog_diffi_65_state_ind,"pct of cognitive difficulty over 65(ACS state, imputation indicator)",pct of cognitive difficulty over 65,ACS state,yes,,,,,
+per_ambu_diffi_65_state_ind,"pct of ambulatory difficulty over 65(ACS state, imputation indicator)",pct of ambulatory difficulty over 65,ACS state,yes,,,,,
+per_selfCare_diffi_65_state_ind,"pct of self-care difficulty over 65(ACS state, imputation indicator)",pct of self-care difficulty over 65,ACS state,yes,,,,,
+per_indeLive_diffi_65_state_ind,"pct of independent living difficulty over 65(ACS state, imputation indicator)",pct of independent living difficulty over 65,ACS state,yes,,,,,
+per_oneRace_white_all_state_ind,"pct of White(one race only)(ACS state, imputation indicator)",pct of White-one race only,ACS state,yes,,,,,
+per_oneRace_baa_all_state_ind,"pct of Black/African American(one race only)(ACS state, imputation indicator)",pct of Black/African American-one race only,ACS state,yes,,,,,
+per_oneRace_aian_all_state_ind,"pct of American Indian and Alaska Native(one race only)(ACS state, imputation indicator)",pct of American Indian and Alaska Native-one race only,ACS state,yes,,,,,
+per_oneRace_asian_all_state_ind,"pct of Asian(one race only)(ACS state, imputation indicator)",pct of Asian-one race only,ACS state,yes,,,,,
+per_oneRace_nhopi_all_state_ind,"pct of Native Hawaiian and Other Pacific Islander(one race only)(ACS state, imputation indicator)",pct of Native Hawaiian and Other Pacific Islander-one race only,ACS state,yes,,,,,
+per_oneRace_other_all_state_ind,"pct of other race(one race only)(ACS state, imputation indicator)",pct of other race-one race only,ACS state,yes,,,,,
+per_twoRace_over_all_state_ind,"pct of two race population(ACS state, imputation indicator)",pct of two race population,ACS state,yes,,,,,
+per_male_65_state_ind,"pct of male over 65(ACS state, imputation indicator)",pct of male over 65,ACS state,yes,,,,,
+per_high_65_state_ind,"pct of high school education over 65(ACS state, imputation indicator)",pct of high school education over 65,ACS state,yes,,,,,
+per_bachelor_65_state_ind,"pct of bachelor education over 65(ACS state, imputation indicator)",pct of bachelor education over 65,ACS state,yes,,,,,
+per_employment_65_state_ind,"pct of employment over 65(ACS state, imputation indicator)",pct of employment over 65,ACS state,yes,,,,,
+per_veteran_65_state_ind,"pct of veteran over 65(ACS state, imputation indicator)",pct of veteran over 65,ACS state,yes,,,,,
+per_stamp_house_all_state_ind,"pct of stamp house over 65(ACS state, imputation indicator)",pct of stamp house over 65,ACS state,yes,,,,,
+per_insured_65_state_ind,"pct of insured over 65(ACS state, imputation indicator)",pct of insured over 65,ACS state,yes,,,,,
+alcohol_abuse_prevalence_ind,"alcohol abuse prevalence(CMS prevalence, imputation indicator)",alcohol abuse prevalence,CMS prevalence,yes,,,,,
+alzheimer's_disease/dementia_prevalence_ind,"alzheimer's disease/dementia prevalence(CMS prevalence, imputation indicator)",alzheimer's disease/dementia prevalence,CMS prevalence,yes,,,,,
+arthritis_prevalence_ind,"arthritis prevalence(CMS prevalence, imputation indicator)",arthritis prevalence,CMS prevalence,yes,,,,,
+asthma_prevalence_ind,"asthma prevalence(CMS prevalence, imputation indicator)",asthma prevalence,CMS prevalence,yes,,,,,
+atrial_fibrillation_prevalence_ind,"atrial fibrillation prevalence(CMS prevalence, imputation indicator)",atrial fibrillation prevalence,CMS prevalence,yes,,,,,
+cancer_prevalence_ind,"cancer prevalence(CMS prevalence, imputation indicator)",cancer prevalence,CMS prevalence,yes,,,,,
+chronic_kidney_disease_prevalence_ind,"chronic kidney disease prevalence(CMS prevalence, imputation indicator)",chronic kidney disease prevalence,CMS prevalence,yes,,,,,
+copd_prevalence_ind,"copd prevalence(CMS prevalence, imputation indicator)",copd prevalence,CMS prevalence,yes,,,,,
+depression_prevalence_ind,"depression prevalence(CMS prevalence, imputation indicator)",depression prevalence,CMS prevalence,yes,,,,,
+diabetes_prevalence_ind,"diabetes prevalence(CMS prevalence, imputation indicator)",diabetes prevalence,CMS prevalence,yes,,,,,
+drug_abuse/substance_abuse_prevalence_ind,"drug abuse/substance abuse prevalence(CMS prevalence, imputation indicator)",drug abuse/substance abuse prevalence,CMS prevalence,yes,,,,,
+heart_failure_prevalence_ind,"heart failure prevalence(CMS prevalence, imputation indicator)",heart failure prevalence,CMS prevalence,yes,,,,,
+hyperlipidemia_prevalence_ind,"hyperlipidemia prevalence(CMS prevalence, imputation indicator)",hyperlipidemia prevalence,CMS prevalence,yes,,,,,
+hypertension_prevalence_ind,"hypertension prevalence(CMS prevalence, imputation indicator)",hypertension prevalence,CMS prevalence,yes,,,,,
+ischemic_heart_disease_prevalence_ind,"ischemic heart disease prevalence(CMS prevalence, imputation indicator)",ischemic heart disease prevalence,CMS prevalence,yes,,,,,
+osteoporosis_prevalence_ind,"osteoporosis prevalence(CMS prevalence, imputation indicator)",osteoporosis prevalence,CMS prevalence,yes,,,,,
+schizophrenia/other_psychotic_disorders_prevalence_ind,"schizophrenia/other psychotic disorders prevalence(CMS prevalence, imputation indicator)",schizophrenia/other psychotic disorders prevalence,CMS prevalence,yes,,,,,
+stroke_prevalence_ind,"stroke prevalence(CMS prevalence, imputation indicator)",stroke prevalence,CMS prevalence,yes,,,,,
+alcohol_abuse_spending_ind,"alcohol abuse spending(CMS spending, imputation indicator)",alcohol abuse spending,CMS spending,yes,,,,,
+alzheimer's_disease/dementia_spending_ind,"alzheimer's disease/dementia spending(CMS spending, imputation indicator)",alzheimer's disease/dementia spending,CMS spending,yes,,,,,
+arthritis_spending_ind,"arthritis spending(CMS spending, imputation indicator)",arthritis spending,CMS spending,yes,,,,,
+asthma_spending_ind,"asthma spending(CMS spending, imputation indicator)",asthma spending,CMS spending,yes,,,,,
+atrial_fibrillation_spending_ind,"atrial fibrillation spending(CMS spending, imputation indicator)",atrial fibrillation spending,CMS spending,yes,,,,,
+cancer_spending_ind,"cancer spending(CMS spending, imputation indicator)",cancer spending,CMS spending,yes,,,,,
+chronic_kidney_disease_spending_ind,"chronic kidney disease spending(CMS spending, imputation indicator)",chronic kidney disease spending,CMS spending,yes,,,,,
+copd_spending_ind,"copd spending(CMS spending, imputation indicator)",copd spending,CMS spending,yes,,,,,
+depression_spending_ind,"depression spending(CMS spending, imputation indicator)",depression spending,CMS spending,yes,,,,,
+diabetes_spending_ind,"diabetes spending(CMS spending, imputation indicator)",diabetes spending,CMS spending,yes,,,,,
+drug_abuse/substance_abuse_spending_ind,"drug abuse/substance abuse spending(CMS spending, imputation indicator)",drug abuse/substance abuse spending,CMS spending,yes,,,,,
+heart_failure_spending_ind,"heart failure spending(CMS spending, imputation indicator)",heart failure spending,CMS spending,yes,,,,,
+hyperlipidemia_spending_ind,"hyperlipidemia spending(CMS spending, imputation indicator)",hyperlipidemia spending,CMS spending,yes,,,,,
+hypertension_spending_ind,"hypertension spending(CMS spending, imputation indicator)",hypertension spending,CMS spending,yes,,,,,
+ischemic_heart_disease_spending_ind,"ischemic heart disease spending(CMS spending, imputation indicator)",ischemic heart disease spending,CMS spending,yes,,,,,
+osteoporosis_spending_ind,"osteoporosis spending(CMS spending, imputation indicator)",osteoporosis spending,CMS spending,yes,,,,,
+schizophrenia/other_psychotic_disorders_spending_ind,"schizophrenia/other psychotic disorders spending(CMS spending, imputation indicator)",schizophrenia/other psychotic disorders spending,CMS spending,yes,,,,,
+stroke_spending_ind,"stroke spending(CMS spending, imputation indicator)",stroke spending,CMS spending,yes,,,,,
+days_with_aqi_aqi,num of days with AQI records(AQI current year),num of days with AQI records,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+good_days_aqi,num of good days(AQI current year),num of good days,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+moderate_days_aqi,num of moderate days(AQI current year),num of moderate days,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+unhealthy_for_sensitive_groups_days_aqi,num of unhealthy days for sensitive groups(AQI current year),num of unhealthy days for sensitive groups,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+unhealthy_days_aqi,num of unhealthy days(AQI current year),num of unhealthy days,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+very_unhealthy_days_aqi,num of very unhealthy days(AQI current year),num of very unhealthy days,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+hazardous_days_aqi,num of hazardous days(AQI current year),num of hazardous days,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+max_aqi_aqi,max AQI(AQI current year),max AQI,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,AQI value
+90th_percentile_aqi_aqi,90th percentile AQI(AQI current year),90th percentile AQI,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,AQI value
+median_aqi_aqi,median AQI(AQI current year),median AQI,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,AQI value
+days_co_aqi,num of days with CO(AQI current year),num of days with CO,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+days_no2_aqi,num of days with NO2(AQI current year),num of days with NO2,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+days_ozone_aqi,num of days with Ozone(AQI current year),num of days with Ozone,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+days_so2_aqi,num of days with SO2(AQI current year),num of days with SO2,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+days_pm2.5_aqi,num of days with PM2.5(AQI current year),num of days with PM2.5,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+days_pm10_aqi,num of days with PM10(AQI current year),num of days with PM10,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+good_days_pct_aqi,pct of good days(AQI current year),pct of good days,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+moderate_days_pct_aqi,pct of moderate days(AQI current year),pct of moderate days,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+unhealthy_for_sensitive_groups_days_pct_aqi,pct of unhealthy days for sensitive groups(AQI current year),pct of unhealthy days for sensitive groups,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+unhealthy_days_pct_aqi,pct of unhealthy days(AQI current year),pct of unhealthy days,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+very_unhealthy_days_pct_aqi,pct of very unhealthy days(AQI current year),pct of very unhealthy days,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+hazardous_days_pct_aqi,pct of hazardous days(AQI current year),pct of hazardous days,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+days_co_pct_aqi,pct of days with CO(AQI current year),pct of days with CO,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+days_no2_pct_aqi,pct of days with NO2(AQI current year),pct of days with NO2,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+days_ozone_pct_aqi,pct of days with Ozone(AQI current year),pct of days with Ozone,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+days_so2_pct_aqi,pct of days with SO2(AQI current year),pct of days with SO2,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+days_pm2.5_pct_aqi,pct of days with PM2.5(AQI current year),pct of days with PM2.5,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+days_pm10_pct_aqi,pct of days with PM10(AQI current year),pct of days with PM10,AQI current year,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+days_with_aqi_prev_8_aqi,num of days with AQI records(AQI prev 8 years),num of days with AQI records,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+good_days_prev_8_aqi,num of good days(AQI prev 8 years),num of good days,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+moderate_days_prev_8_aqi,num of moderate days(AQI prev 8 years),num of moderate days,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+unhealthy_for_sensitive_groups_days_prev_8_aqi,num of unhealthy days for sensitive groups(AQI prev 8 years),num of unhealthy days for sensitive groups,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+unhealthy_days_prev_8_aqi,num of unhealthy days(AQI prev 8 years),num of unhealthy days,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+very_unhealthy_days_prev_8_aqi,num of very unhealthy days(AQI prev 8 years),num of very unhealthy days,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+hazardous_days_prev_8_aqi,num of hazardous days(AQI prev 8 years),num of hazardous days,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+max_aqi_prev_8_aqi,max AQI(AQI prev 8 years),max AQI,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,AQI value
+90th_percentile_aqi_prev_8_aqi,90th percentile AQI(AQI prev 8 years),90th percentile AQI,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,AQI value
+median_aqi_prev_8_aqi,median AQI(AQI prev 8 years),median AQI,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,AQI value
+days_co_prev_8_aqi,num of days with CO(AQI prev 8 years),num of days with CO,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+days_no2_prev_8_aqi,num of days with NO2(AQI prev 8 years),num of days with NO2,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+days_ozone_prev_8_aqi,num of days with Ozone(AQI prev 8 years),num of days with Ozone,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+days_so2_prev_8_aqi,num of days with SO2(AQI prev 8 years),num of days with SO2,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+days_pm2.5_prev_8_aqi,num of days with PM2.5(AQI prev 8 years),num of days with PM2.5,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+days_pm10_prev_8_aqi,num of days with PM10(AQI prev 8 years),num of days with PM10,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,days
+good_days_pct_prev_8_aqi,pct of good days(AQI prev 8 years),pct of good days,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+moderate_days_pct_prev_8_aqi,pct of moderate days(AQI prev 8 years),pct of moderate days,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+unhealthy_for_sensitive_groups_days_pct_prev_8_aqi,pct of unhealthy days for sensitive groups(AQI prev 8 years),pct of unhealthy days for sensitive groups,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+unhealthy_days_pct_prev_8_aqi,pct of unhealthy days(AQI prev 8 years),pct of unhealthy days,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+very_unhealthy_days_pct_prev_8_aqi,pct of very unhealthy days(AQI prev 8 years),pct of very unhealthy days,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+hazardous_days_pct_prev_8_aqi,pct of hazardous days(AQI prev 8 years),pct of hazardous days,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+days_co_pct_prev_8_aqi,pct of days with CO(AQI prev 8 years),pct of days with CO,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+days_no2_pct_prev_8_aqi,pct of days with NO2(AQI prev 8 years),pct of days with NO2,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+days_ozone_pct_prev_8_aqi,pct of days with Ozone(AQI prev 8 years),pct of days with Ozone,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+days_so2_pct_prev_8_aqi,pct of days with SO2(AQI prev 8 years),pct of days with SO2,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+days_pm2.5_pct_prev_8_aqi,pct of days with PM2.5(AQI prev 8 years),pct of days with PM2.5,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+days_pm10_pct_prev_8_aqi,pct of days with PM10(AQI prev 8 years),pct of days with PM10,AQI prev 8 years,no,mean,Mean by county of state X,Mean by ALL county,Mean by county of each state then by ALL states,%
+population_all_county,population(ACS county),population,ACS county,no,mean,,Mean by ALL county,,# of people
+population_65_county,population over 65(ACS county),population over 65,ACS county,no,mean,,Mean by ALL county,,# of people
+income_median_house_65_county,household median income over 65(ACS county),household median income over 65,ACS county,no,mean,,Mean by ALL county,,$
+income_median_house_all_county,household median income(ACS county),household median income,ACS county,no,mean,,Mean by ALL county,,$
+per_poverty_all_county,pct of poverty(ACS county),pct of poverty,ACS county,no,weighted mean(all),,Weighted mean by ALL county,,%
+per_poverty_65_county,pct of poverty over 65(ACS county),pct of poverty over 65,ACS county,no,weighted mean(over 65),,Weighted mean by ALL county,,%
+per_male_all_county,pct of male(ACS county),pct of male,ACS county,no,weighted mean(all),,Weighted mean by ALL county,,%
+per_hear_diffi_65_county,pct of hearing difficulty over 65(ACS county),pct of hearing difficulty over 65,ACS county,no,weighted mean(over 65),,Weighted mean by ALL county,,%
+per_vision_diffi_65_county,pct of vision difficulty over 65(ACS county),pct of vision difficulty over 65,ACS county,no,weighted mean(over 65),,Weighted mean by ALL county,,%
+per_cog_diffi_65_county,pct of cognitive difficulty over 65(ACS county),pct of cognitive difficulty over 65,ACS county,no,weighted mean(over 65),,Weighted mean by ALL county,,%
+per_ambu_diffi_65_county,pct of ambulatory difficulty over 65(ACS county),pct of ambulatory difficulty over 65,ACS county,no,weighted mean(over 65),,Weighted mean by ALL county,,%
+per_selfCare_diffi_65_county,pct of self-care difficulty over 65(ACS county),pct of self-care difficulty over 65,ACS county,no,weighted mean(over 65),,Weighted mean by ALL county,,%
+per_indeLive_diffi_65_county,pct of independent living difficulty over 65(ACS county),pct of independent living difficulty over 65,ACS county,no,weighted mean(over 65),,Weighted mean by ALL county,,%
+per_oneRace_white_all_county,pct of White(one race only)(ACS county),pct of White-one race only,ACS county,no,weighted mean(all),,Weighted mean by ALL county,,%
+per_oneRace_baa_all_county,pct of Black/African American(one race only)(ACS county),pct of Black/African American-one race only,ACS county,no,weighted mean(all),,Weighted mean by ALL county,,%
+per_oneRace_aian_all_county,pct of American Indian and Alaska Native(one race only)(ACS county),pct of American Indian and Alaska Native-one race only,ACS county,no,weighted mean(all),,Weighted mean by ALL county,,%
+per_oneRace_asian_all_county,pct of Asian(one race only)(ACS county),pct of Asian-one race only,ACS county,no,weighted mean(all),,Weighted mean by ALL county,,%
+per_oneRace_nhopi_all_county,pct of Native Hawaiian and Other Pacific Islander(one race only)(ACS county),pct of Native Hawaiian and Other Pacific Islander-one race only,ACS county,no,weighted mean(all),,Weighted mean by ALL county,,%
+per_oneRace_other_all_county,pct of other race(one race only)(ACS county),pct of other race-one race only,ACS county,no,weighted mean(all),,Weighted mean by ALL county,,%
+per_twoRace_over_all_county,pct of two race population(ACS county),pct of two race population,ACS county,no,weighted mean(all),,Weighted mean by ALL county,,%
+per_male_65_county,pct of male over 65(ACS county),pct of male over 65,ACS county,no,weighted mean(over 65),,Weighted mean by ALL county,,%
+per_high_65_county,pct of high school education over 65(ACS county),pct of high school education over 65,ACS county,no,weighted mean(over 65),,Weighted mean by ALL county,,%
+per_bachelor_65_county,pct of bachelor education over 65(ACS county),pct of bachelor education over 65,ACS county,no,weighted mean(over 65),,Weighted mean by ALL county,,%
+per_employment_65_county,pct of employment over 65(ACS county),pct of employment over 65,ACS county,no,weighted mean(over 65),,Weighted mean by ALL county,,%
+per_veteran_65_county,pct of veteran over 65(ACS county),pct of veteran over 65,ACS county,no,weighted mean(over 65),,Weighted mean by ALL county,,%
+per_stamp_house_all_county,"pct of stamp house over 65(ACS county,)",pct of stamp house over 65,ACS county,no,weighted mean(all),,Weighted mean by ALL county,,%
+per_insured_65_county,pct of insured over 65(ACS county),pct of insured over 65,ACS county,no,weighted mean(over 65),,Weighted mean by ALL county,,%
+population_all_state,population(ACS state),population,ACS state,no,mean,Mean by county of state X,,Mean by county of each state then by ALL states,# of people
+population_65_state,population over 65(ACS state),population over 65,ACS state,no,mean,Mean by county of state X,,Mean by county of each state then by ALL states,# of people
+income_median_house_65_state,household median income over 65(ACS state),household median income over 65,ACS state,no,mean,Mean by county of state X,,Mean by county of each state then by ALL states,$
+income_median_house_all_state,household median income(ACS state),household median income,ACS state,no,mean,Mean by county of state X,,Mean by county of each state then by ALL states,$
+per_poverty_all_state,pct of poverty(ACS state),pct of poverty,ACS state,no,weighted mean(all),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_poverty_65_state,pct of poverty over 65(ACS state),pct of poverty over 65,ACS state,no,weighted mean(over 65),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_male_all_state,pct of male(ACS state),pct of male,ACS state,no,weighted mean(all),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_hear_diffi_65_state,pct of hearing difficulty over 65(ACS state),pct of hearing difficulty over 65,ACS state,no,weighted mean(over 65),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_vision_diffi_65_state,pct of vision difficulty over 65(ACS state),pct of vision difficulty over 65,ACS state,no,weighted mean(over 65),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_cog_diffi_65_state,pct of cognitive difficulty over 65(ACS state),pct of cognitive difficulty over 65,ACS state,no,weighted mean(over 65),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_ambu_diffi_65_state,pct of ambulatory difficulty over 65(ACS state),pct of ambulatory difficulty over 65,ACS state,no,weighted mean(over 65),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_selfCare_diffi_65_state,pct of self-care difficulty over 65(ACS state),pct of self-care difficulty over 65,ACS state,no,weighted mean(over 65),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_indeLive_diffi_65_state,pct of independent living difficulty over 65(ACS state),pct of independent living difficulty over 65,ACS state,no,weighted mean(over 65),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_oneRace_white_all_state,pct of White(one race only)(ACS state),pct of White-one race only,ACS state,no,weighted mean(all),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_oneRace_baa_all_state,pct of Black/African American(one race only)(ACS state),pct of Black/African American-one race only,ACS state,no,weighted mean(all),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_oneRace_aian_all_state,pct of American Indian and Alaska Native(one race only)(ACS state),pct of American Indian and Alaska Native-one race only,ACS state,no,weighted mean(all),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_oneRace_asian_all_state,pct of Asian(one race only)(ACS state),pct of Asian-one race only,ACS state,no,weighted mean(all),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_oneRace_nhopi_all_state,pct of Native Hawaiian and Other Pacific Islander(one race only)(ACS state),pct of Native Hawaiian and Other Pacific Islander-one race only,ACS state,no,weighted mean(all),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_oneRace_other_all_state,pct of other race(one race only)(ACS state),pct of other race-one race only,ACS state,no,weighted mean(all),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_twoRace_over_all_state,pct of two race population(ACS state),pct of two race population,ACS state,no,weighted mean(all),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_male_65_state,pct of male over 65(ACS state),pct of male over 65,ACS state,no,weighted mean(over 65),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_high_65_state,pct of high school education over 65(ACS state),pct of high school education over 65,ACS state,no,weighted mean(over 65),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_bachelor_65_state,pct of bachelor education over 65(ACS state),pct of bachelor education over 65,ACS state,no,weighted mean(over 65),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_employment_65_state,pct of employment over 65(ACS state),pct of employment over 65,ACS state,no,weighted mean(over 65),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_veteran_65_state,pct of veteran over 65(ACS state),pct of veteran over 65,ACS state,no,weighted mean(over 65),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_stamp_house_all_state,pct of stamp house over 65(ACS state),pct of stamp house over 65,ACS state,no,weighted mean(all),Weighted mean by county of state X,,Weighted mean by ALL county,%
+per_insured_65_state,pct of insured over 65(ACS state),pct of insured over 65,ACS state,no,weighted mean(over 65),Weighted mean by county of state X,,Weighted mean by ALL county,%
+alcohol_abuse_prevalence,alcohol abuse prevalence(CMS prevalence),alcohol abuse prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+alzheimer's_disease/dementia_prevalence,alzheimer's disease/dementia prevalence(CMS prevalence),alzheimer's disease/dementia prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+arthritis_prevalence,arthritis prevalence(CMS prevalence),arthritis prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+asthma_prevalence,asthma prevalence(CMS prevalence),asthma prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+atrial_fibrillation_prevalence,atrial fibrillation prevalence(CMS prevalence),atrial fibrillation prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+cancer_prevalence,cancer prevalence(CMS prevalence),cancer prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+chronic_kidney_disease_prevalence,chronic kidney disease prevalence(CMS prevalence),chronic kidney disease prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+copd_prevalence,copd prevalence(CMS prevalence),copd prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+depression_prevalence,depression prevalence(CMS prevalence),depression prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+diabetes_prevalence,diabetes prevalence(CMS prevalence),diabetes prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+drug_abuse/substance_abuse_prevalence,drug abuse/substance abuse prevalence(CMS prevalence),drug abuse/substance abuse prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+heart_failure_prevalence,heart failure prevalence(CMS prevalence),heart failure prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+hyperlipidemia_prevalence,hyperlipidemia prevalence(CMS prevalence),hyperlipidemia prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+hypertension_prevalence,hypertension prevalence(CMS prevalence),hypertension prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+ischemic_heart_disease_prevalence,ischemic heart disease prevalence(CMS prevalence),ischemic heart disease prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+osteoporosis_prevalence,osteoporosis prevalence(CMS prevalence),osteoporosis prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+schizophrenia/other_psychotic_disorders_prevalence,schizophrenia/other psychotic disorders prevalence(CMS prevalence),schizophrenia/other psychotic disorders prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+stroke_prevalence,stroke prevalence(CMS prevalence),stroke prevalence,CMS prevalence,no,weighted mean(over 65),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,%
+alcohol_abuse_spending,alcohol abuse spending(CMS spending),alcohol abuse spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+alzheimer's_disease/dementia_spending,alzheimer's disease/dementia spending(CMS spending),alzheimer's disease/dementia spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+arthritis_spending,arthritis spending(CMS spending),arthritis spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+asthma_spending,asthma spending(CMS spending),asthma spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+atrial_fibrillation_spending,atrial fibrillation spending(CMS spending),atrial fibrillation spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+cancer_spending,cancer spending(CMS spending),cancer spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+chronic_kidney_disease_spending,chronic kidney disease spending(CMS spending),chronic kidney disease spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+copd_spending,copd spending(CMS spending),copd spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+depression_spending,depression spending(CMS spending),depression spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+diabetes_spending,diabetes spending(CMS spending),diabetes spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+drug_abuse/substance_abuse_spending,drug abuse/substance abuse spending(CMS spending),drug abuse/substance abuse spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+heart_failure_spending,heart failure spending(CMS spending),heart failure spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+hyperlipidemia_spending,hyperlipidemia spending(CMS spending),hyperlipidemia spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+hypertension_spending,hypertension spending(CMS spending),hypertension spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+ischemic_heart_disease_spending,ischemic heart disease spending(CMS spending),ischemic heart disease spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+osteoporosis_spending,osteoporosis spending(CMS spending),osteoporosis spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+schizophrenia/other_psychotic_disorders_spending,schizophrenia/other psychotic disorders spending(CMS spending),schizophrenia/other psychotic disorders spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
+stroke_spending,stroke spending(CMS spending),stroke spending,CMS spending,no,weighted mean(all),Weighted mean by county of state X,Weighted mean by ALL county,Weighted mean by ALL county,$
